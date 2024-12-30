@@ -7,10 +7,10 @@ import os
 class Config(object):
     API_ID = os.environ.get("14050586")
     API_HASH = os.environ.get("42a60d9c657b106370c79bb0a8ac560c")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("7818358444:AAEg1M7Zs_3arp-ifmQnHIhzKuxeB4y1A80")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Video-Merger_Bot")
     UPDATES_CHANNEL = os.environ.get("@Animes_India_bot")
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
+    LOG_CHANNEL = os.environ.get("-1002281888349")
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
     TIME_GAP = int(os.environ.get("TIME_GAP", 5))
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
